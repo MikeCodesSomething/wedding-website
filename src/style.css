@@ -1,7 +1,7 @@
 html {
     margin: 0;
     padding: 0;
-    background-image: url('/wedding-website/public/background.webp');
+    background-image: url('/background.webp');
     background-size: cover;
     background-position: center;
     height: 200vh;
