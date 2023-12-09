@@ -9,7 +9,7 @@ const Home = () => {
         <h4>20th | July | 2024</h4>
       </div>
       <div className='container'>
-        <img className='photo' src='/engagement-photo.jpg' alt="engagement photo" />
+        <img className='photo' src='./engagement-photo.jpg' alt="engagement photo" />
       </div>
     </>
   )
