@@ -11,13 +11,13 @@ function App() {
 
   
   return (
-    <Router>
+    <Router basename="/wedding-website">
       <Header />
       <Switch>
         <Route path='/' exact><Home /></Route>
-        <Route path='/location' exact> <Location /></Route>
-        <Route path='/rsvp' exact> <RSVP /> </Route>
-        <Route path='/accomodation' exact> <Accommodation /> </Route>
+        <Route path='/location'> <Location /></Route>
+        <Route path='/rsvp'> <RSVP /> </Route>
+        <Route path='/accomodation'> <Accommodation /> </Route>
         </Switch>
     </Router>
   )
