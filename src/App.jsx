@@ -11,7 +11,7 @@ function App() {
 
   
   return (
-    <Router basename="/wedding-website">
+    <Router basename="/">
       <Header />
       <Switch>
         <Route path='/' exact><Home /></Route>

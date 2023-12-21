@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+
 
 const Home = () => {
   return (
@@ -7,6 +9,7 @@ const Home = () => {
         <h2>Tabitha & Mike</h2>
         <h4>Are getting married!</h4>
         <h4>20th | July | 2024</h4>
+        <Link to="/rsvp">RSVP</Link>
       </div>
       <div className='container'>
         <img className='photo' src='./engagement-photo.jpg' alt="engagement photo" />
