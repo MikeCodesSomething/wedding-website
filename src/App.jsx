@@ -12,7 +12,7 @@ function App() {
 
   
   return (
-    <Router basename="/">
+    <Router>
       <Header />
       <Switch>
         <Route path='/' exact><Home /></Route>
