@@ -78,3 +78,7 @@ body {
 img {
     width: 100%
 }
+
+.padded {
+    padding: 0px 20px;
+}
