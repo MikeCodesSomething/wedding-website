@@ -1,7 +1,7 @@
 import './App.css'
 import Header from './components/Header'
 import './style.css'
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import { HashRouter as Router, Switch, Route } from 'react-router-dom'
 import Home from './pages/Home';
 import Location from './pages/Location';
 import RSVP from './pages/RSVP';
@@ -12,7 +12,7 @@ function App() {
 
   
   return (
-    <Router>
+    <Router basename="/">
       <Header />
       <Switch>
         <Route path='/' exact><Home /></Route>
