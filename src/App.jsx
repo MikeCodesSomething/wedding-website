@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import Location from './pages/Location';
 import RSVP from './pages/RSVP';
 import Accommodation from './pages/Accommodation';
+import Registry from './pages/Registry';
 
 function App() {
 
@@ -18,7 +19,8 @@ function App() {
         <Route path='/location'> <Location /></Route>
         <Route path='/rsvp'> <RSVP /> </Route>
         <Route path='/accomodation'> <Accommodation /> </Route>
-        </Switch>
+        <Route path='/registry'> <Registry /> </Route>
+      </Switch>
     </Router>
   )
 }

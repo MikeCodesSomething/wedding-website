@@ -10,27 +10,43 @@ html {
 body {
     align-items: start !important;
     justify-content: center !important;
-    width: 100%
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+
 }
 
 /* Header */
 
 .header-list {
-    color: blue;
-    gap: 10px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
     display: flex;
-    justify-content: center;
     background-color: white;
-}
-
-.header-list a {
-    list-style-type: none;
-}
-
-.header-list a:hover {
-    text-decoration: underline;
+  }
+  
+  .header-list li {
+    margin: 0;
+  }
+  
+  .header-list a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
     color: black;
-}
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .header-list a:hover {
+    background-color: #555;
+  }
+  
+  .header-list a.active {
+    background-color: #555;
+    color: #fff;
+  }
+  
 
 /* Content */
 
@@ -44,6 +60,7 @@ body {
     background-color: white;
     margin-bottom: 32px;
     margin-top: 32px;
+    max-width: 475px;
 }
 
 .container {
