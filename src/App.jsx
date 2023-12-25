@@ -1,4 +1,3 @@
-import './App.css'
 import Header from './components/Header'
 import './style.css'
 import { HashRouter as Router, Switch, Route } from 'react-router-dom'
@@ -13,14 +12,16 @@ function App() {
   
   return (
     <Router basename="/">
-      <Header />
-      <Switch>
-        <Route path='/' exact><Home /></Route>
-        <Route path='/location'> <Location /></Route>
-        <Route path='/rsvp'> <RSVP /> </Route>
-        <Route path='/accomodation'> <Accommodation /> </Route>
-        <Route path='/registry'> <Registry /> </Route>
-      </Switch>
+      <div className='main-container'>
+        <Header />
+        <Switch>
+          <Route path='/' exact><Home /></Route>
+          <Route path='/location'> <Location /></Route>
+          <Route path='/rsvp'> <RSVP /> </Route>
+          <Route path='/accommodation'> <Accommodation /> </Route>
+          <Route path='/registry'> <Registry /> </Route>
+        </Switch>
+      </div>
     </Router>
   )
 }

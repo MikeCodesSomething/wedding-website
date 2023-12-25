@@ -1,3 +1,14 @@
+#root {
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+.main-container {
+    max-width: 475px;
+    margin: 0 auto;
+}
+
 html {
     margin: 0;
     padding: 0;
@@ -8,11 +19,8 @@ html {
   }
 
 body {
-    align-items: start !important;
-    justify-content: center !important;
     width: 100%;
     font-family: 'Lato', sans-serif;
-
 }
 
 /* Header */
@@ -23,11 +31,12 @@ body {
     margin: 0;
     display: flex;
     flex-wrap: wrap;
-    background-color: white;
   }
   
   .header-list li {
     margin: 0;
+    background-color: white;
+    flex: 1;
   }
   
   .header-list a {
@@ -57,11 +66,12 @@ body {
     align-items: center;
     justify-content: center;
     height: 100%;
-    /* width: max(280px,50vw); */
     background-color: white;
     margin-bottom: 32px;
     margin-top: 32px;
-    width: min(90vw, 475px);
+    width: min(100%, 475px);
+    padding: 16px;
+    box-sizing: border-box;
 }
 
 .container {
@@ -71,8 +81,6 @@ body {
     justify-content: center;
     height: 100%;
     width: 100%;
-    background-color: white;
-    margin-bottom: 32px;
 }
 
 img {

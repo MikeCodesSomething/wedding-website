@@ -2,6 +2,7 @@ import React from 'react';
 
 const RSVP = () => {
   return (
+    <>
     <div className='title-box'>
       <h2>RSVP</h2>
       <div className='padded'>
@@ -14,7 +15,7 @@ const RSVP = () => {
       <iframe
         title="RSVP Form"
         src="https://docs.google.com/forms/d/e/1FAIpQLScbmEhxbqSioNsEUQL6CVEYc0x-QHk057YgXcDDt-dGdhYOgg/viewform?embedded=true"
-        width="450"
+        width="100%"
         height="1350"
         frameborder="0"
         marginheight="0"
@@ -23,6 +24,7 @@ const RSVP = () => {
         Loading…
       </iframe>
     </div>
+    </>
   );
 }
 
