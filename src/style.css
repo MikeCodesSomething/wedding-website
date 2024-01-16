@@ -149,6 +149,9 @@ img {
   border-radius: 0.25rem;
   text-decoration: none;
   color: #000;
+    @media (prefers-color-scheme: dark) {
+    color: white;   
+    }
 }
 
 .show-counter .countdown {
