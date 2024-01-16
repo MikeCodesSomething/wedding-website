@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import CountdownTimer from '../components/CountdownTimer'
 
 const Home = () => {
   return (
@@ -14,6 +15,10 @@ const Home = () => {
       <div className='container'>
         <img className='photo' src='./engagement-photo.jpg' alt="engagement photo" />
       </div>
+      <div className='title-box'>
+      <h2>Countdown!</h2>
+      <CountdownTimer targetDate={new Date('2024-07-20T12:00')} />
+    </div>
     </>
   )
 }
