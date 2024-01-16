@@ -21,6 +21,8 @@ const Location = () => {
         loading="lazy"
         referrerPolicy="no-referrer-when-downgrade"
         ></iframe>
+
+        <p>What3Words location: ///romantics.looked.tummy</p>
         </div>
       </div>
     </>
