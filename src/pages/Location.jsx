@@ -22,7 +22,7 @@ const Location = () => {
         referrerPolicy="no-referrer-when-downgrade"
         ></iframe>
 
-        <p>What3Words location: ///romantics.looked.tummy</p>
+        <p>What3Words location: ///zealous.sonic.chapels</p>
         </div>
       </div>
     </>
