@@ -23,6 +23,15 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+@media (prefers-color-scheme: dark) {
+
+
+  .title-box .container {
+    background-color: rgb(26, 24, 24) !important;
+  }
+
+}
+
 /* Header */
 
 .header-list {
@@ -37,6 +46,11 @@ body {
     margin: 0;
     background-color: white;
     flex: 1;
+
+    @media (prefers-color-scheme: dark) {
+      background-color: rgb(26, 24, 24) !important;
+      color: white;   
+      }
   }
   
   .header-list a {
@@ -46,6 +60,9 @@ body {
     color: black;
     font-weight: bold;
     transition: background-color 0.3s ease;
+    @media (prefers-color-scheme: dark) {
+      color: white;   
+      }
   }
   
   .header-list a:hover {
@@ -72,6 +89,10 @@ body {
     width: min(100%, 475px);
     padding: 16px;
     box-sizing: border-box;
+
+    @media (prefers-color-scheme: dark) {
+    background-color: rgb(26, 24, 24) !important;   
+    }
 }
 
 .container {
