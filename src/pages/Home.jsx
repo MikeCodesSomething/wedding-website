@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import Photos from '../components/Photos'
 
 const Home = () => {
   return (
@@ -12,7 +13,8 @@ const Home = () => {
         <Link style={{padding: '10px' }} to="/rsvp">RSVP</Link>
       </div>
       <div className='container'>
-        <img className='photo' src='./engagement-photo.jpg' alt="engagement photo" />
+        {/* <img className='photo' src='./engagement-photo.jpg' alt="engagement photo" /> */}
+        <Photos></Photos>
       </div>
     </>
   )
