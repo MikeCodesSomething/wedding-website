@@ -4,7 +4,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 const Photos = () => {
 
     return (
-        <Carousel>
+        <Carousel autoPlay interval={5000} infiniteLoop>
             <div>
                 <img src="./Carousel/HayleyGellPhotography-2.jpg" />
             </div>
