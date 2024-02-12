@@ -6,16 +6,28 @@ const Photos = () => {
     return (
         <Carousel>
             <div>
-                <img src="assets/Carousel/engagement-photo.jpg" />
-                <p className="legend">Legend 1</p>
+                <img src="./Carousel/HayleyGellPhotography-2.jpg" />
             </div>
             <div>
-                <img src="assets/HaylewGellPhotography-2.jpg" />
-                <p className="legend">Legend 2</p>
+                <img src="./Carousel/HayleyGellPhotography-17.jpg" />
             </div>
             <div>
-                <img src="assets/HaylewGellPhotography-6.jpg" />
-                <p className="legend">Legend 3</p>
+                <img src="./Carousel/engagement-photo.jpg" />
+            </div>
+            <div>
+                <img src="./Carousel/HayleyGellPhotography-23.jpg" />
+            </div>
+            <div>
+                <img src="./Carousel/HayleyGellPhotography-32.jpg" />
+            </div>
+            <div>
+                <img src="./Carousel/HayleyGellPhotography-40.jpg" />
+            </div>
+            <div>
+                <img src="./Carousel/HayleyGellPhotography-49.jpg" />
+            </div>
+            <div>
+                <img src="./Carousel/HayleyGellPhotography-54.jpg" />
             </div>
         </Carousel>
     )
