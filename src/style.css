@@ -185,3 +185,11 @@ img {
   font-size: 0.75rem;
   line-height: 1rem;
 }
+
+.itinerary {
+  padding: 0;
+}
+
+.itinerary > li {
+  list-style-type: none;
+}
