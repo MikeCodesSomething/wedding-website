@@ -19,7 +19,7 @@ const RSVP = () => {
         height="1350"
         frameborder="0"
         marginheight="0"
-        marginwidth="0"
+        marginwidth="10"
       >
         Loading…
       </iframe>

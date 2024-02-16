@@ -5,7 +5,7 @@
 }
 
 .main-container {
-    max-width: max(50vw, 350px);
+    max-width: max(30vw, 350px);
     margin: 0 auto;
 }
 
@@ -86,7 +86,7 @@ body {
     background-color: white;
     margin-bottom: 32px;
     margin-top: 32px;
-    max-width: max(50vw, 350px);
+    max-width: max(30vw, 350px);
     padding: 16px;
     box-sizing: border-box;
 
