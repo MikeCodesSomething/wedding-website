@@ -3,9 +3,9 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 const Photos = () => {
   return (
-    <Carousel autoPlay interval={5000} infiniteLoop swipeable={false}>
+    <Carousel autoPlay interval={5000} infiniteLoop swipeable={false} >
       <div>
-        <img src="./Carousel/HayleyGellPhotography-2.jpg" />
+        <img src="./Carousel/HayleyGellPhotography-23.jpg" />
       </div>
       <div>
         <img src="./Carousel/HayleyGellPhotography-17.jpg" />
@@ -14,7 +14,7 @@ const Photos = () => {
         <img src="./Carousel/engagement-photo.jpg" />
       </div>
       <div>
-        <img src="./Carousel/HayleyGellPhotography-23.jpg" />
+        <img src="./Carousel/HayleyGellPhotography-2.jpg" />
       </div>
       <div>
         <img src="./Carousel/HayleyGellPhotography-32.jpg" />

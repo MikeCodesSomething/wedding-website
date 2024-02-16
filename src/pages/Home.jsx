@@ -14,7 +14,6 @@ const Home = () => {
         <Link style={{padding: '10px' }} to="/rsvp">RSVP</Link>
       </div>
       <div className='container'>
-        {/* <img className='photo' src='./engagement-photo.jpg' alt="engagement photo" /> */}
         <Photos></Photos>
       </div>
       <div className='title-box'>
