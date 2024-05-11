@@ -9,6 +9,7 @@ const Itinerary = () => {
         <h3 className='list-heading'>Saturday</h3>
         <ul className='itinerary'>
             <li>12pm - Guest Arrival</li>
+            <li>12:30pm - Ceremony</li>
             <li>1:15pm - Drinks and canapes</li>
             <li>3pm - Wedding breakfast</li>
             <li>5:30pm - Speeches</li>
