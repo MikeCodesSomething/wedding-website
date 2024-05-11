@@ -193,3 +193,8 @@ img {
 .itinerary > li {
   list-style-type: none;
 }
+
+.list-heading {
+  padding: 8px 16px;
+  margin: 0;
+}
