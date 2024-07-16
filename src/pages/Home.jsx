@@ -14,7 +14,6 @@ const Home = () => {
         <h4>PSA on Dresscode
           <p>Normal wedding attire, just bear in mind it's a field!</p>
         </h4>
-        <Link style={{padding: '10px' }} to="/rsvp">RSVP</Link>
       </div>
       <div className='container'>
         <Photos></Photos>
