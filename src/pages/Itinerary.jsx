@@ -13,9 +13,9 @@ const Itinerary = () => {
             <li>1:15pm - Drinks and canapes</li>
             <li>3pm - Wedding breakfast</li>
             <li>5:30pm - Speeches</li>
-            <li>8pm - Live band</li>
+            <li>7pm - Live band</li>
             <li>9pm - Evening food</li>
-            <li>12am - Silent Disco</li>
+            <li>11pm - Silent Disco</li>
         </ul>
         <p>There will be an inflatable obstacle course for those who partake in such things.</p>
         <h3 className='list-heading'>Sunday</h3>

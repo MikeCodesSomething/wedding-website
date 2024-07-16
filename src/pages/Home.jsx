@@ -11,6 +11,9 @@ const Home = () => {
         <h4>20th | July | 2024
           <p>12:00 pm</p>
         </h4>
+        <h4>PSA on Dresscode
+          <p>Normal wedding attire, just bear in mind it's a field!</p>
+        </h4>
         <Link style={{padding: '10px' }} to="/rsvp">RSVP</Link>
       </div>
       <div className='container'>
