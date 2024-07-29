@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom';
 const Home = () => {
   return (
     <>
-      <div className='title-box left-align'>
+      <div className='title-box'>
         <h2>Tabitha & Mike</h2>
         <h4>20th | July | 2024
           <p>12:00 pm</p>
