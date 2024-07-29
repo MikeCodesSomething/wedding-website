@@ -7,6 +7,7 @@ import RSVP from './pages/RSVP';
 import Accommodation from './pages/Accommodation';
 import Registry from './pages/Registry';
 import Itinerary from './pages/Itinerary';
+import Vows from './pages/Vows';
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
           <Route path='/accommodation'> <Accommodation /> </Route>
           <Route path='/registry'> <Registry /> </Route>
           <Route path='/itinerary'> <Itinerary /> </Route>
+          <Route path='/vows'> <Vows /> </Route>
         </Switch>
       </div>
     </Router>
